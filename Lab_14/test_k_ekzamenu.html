@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="">
+        <meta charset="UTF-8">
+        <title>Подготовка к экзамену</title>
+        <style>
+            svg{
+                background-color: #000087;
+                border: 2px solid black;
+            }
+            .shadow {
+             filter: drop-shadow(10px 6px 10px black);
+            }
+            @keyframes strokeanim {
+                    to { 
+                        stroke-dashoffset: 210; 
+                    }
+                }
+                circle#dashstart {
+                    stroke: green;
+                    stroke-width: 5;
+                    stroke-dasharray: 10 5;
+                    animation: strokeanim 2s linear infinite;
+                }
+                circle#dashstart:hover {
+                    stroke: black;
+                    stroke-width: 10;
+                }
+                @keyframes moonstrokeanim {
+                    to { stroke-dashoffset: -210; }
+                }
+                circle#moondashstart {
+                    stroke: red;
+                    stroke-width: 3;
+                    stroke-dasharray: 10 5;
+                    animation: moonstrokeanim 2s linear infinite;
+                }
+        </style>
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" widht="1280" height="720" viewBox="0 0 1280 720">
+           
+            <defs>
+                <linearGradient id="cirgradient" gradientTransform="rotate(90)">
+                    <stop offset="15%"  stop-color="gold" />
+                    <stop offset="60%" stop-color="brown" />
+                    <stop offset="90%" stop-color="brown" />
+                    <stop offset="100%" stop-color="#d6fffa" />
+                </linearGradient>
+                <linearGradient id="moongradient" gradientTransform="rotate(90)">
+                    <stop offset="15%"  stop-color="black" />
+                    <stop offset="60%" stop-color="grey" />
+                    <stop offset="90%" stop-color="grey" />
+                    <stop offset="100%" stop-color="black" />
+                </linearGradient>
+                <linearGradient id="moongradient2" gradientTransform="rotate(90)">
+                    <stop offset="15%"  stop-color="red" />
+                    <stop offset="60%" stop-color="green" />
+                    <stop offset="90%" stop-color="blue" />
+                    <stop offset="100%" stop-color="black" />
+                </linearGradient>
+                <path id="theMotionPath" stroke="green" fill="none" stroke-width="2"  d="M900,300 A225,120 0 0,1 300 300 M300,300 A225,120 0 0,1 900 300" />
+                <path id="theMotionPath2" stroke="green" fill="none" stroke-width="2" d="M100,300 A225,120 0 0,1 1200 300 M1200,300 A225,120 0 0,1 100 300" />
+            </defs>
+                <circle id="dashstart" cx="600" cy="300" r="75" fill="url('#cirgradient')"/>
+                <circle id="moondashstart" class="shadow" cx="" cy="" r="30" fill="url('#moongradient')">
+                      <animateMotion dur="6s" repeatCount="indefinite">
+                        <mpath xlink:href="#theMotionPath"/>
+                      </animateMotion>
+                </circle>
+                <circle id="moondashstart" class="shadow" cx="" cy="" r="30" fill="url('#moongradient2')">
+                    <animateMotion dur="4s" repeatCount="indefinite">
+                      <mpath xlink:href="#theMotionPath2"/>
+                    </animateMotion>
+              </circle>
+        </svg>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+div {
+	margin: 10px;
+	border: 2px solid black;
+	float: left;
+	width: 300px;
+	height: 300px;
+}
+.perv {
+	transform: perspective(50em) rotateX(50deg);
+}
+
+.vtoroe {
+	transform: perspective(50em) rotateY(50deg);
+}
+
+.tret {
+	transform-origin: 50% -25%;
+	transform: perspective(40em) rotateX(50deg);
+}
+
+.chet {
+	transform: perspective(50em) rotateY(-50deg);
+}
+
+@keyframes forzagolovok {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 80%;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.forzagolovok {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	animation: forzagolovok 3s linear infinite;
+}

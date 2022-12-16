@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad_2-2</title>
+    <link rel="stylesheet" href="cssForLab13.css">
+</head>
+<body>
+    <div>
+        <p><span id="country"></span></p>
+        <p><span id="city"></span></p>
+        <p><span id="population"></span></p>
+        <p><span id="year_of_foundation"></span></p>
+    </div>
+
+    <script>
+        txt = "<information_about_city>";
+        txt = txt + "<country> Belarus </country>";
+        txt = txt + "<city> Rogachev </city>";
+        txt = txt + "<population>Population: 32 878 </population>";
+        txt = txt + "<year_of_foundation>in 1142 </year_of_foundation>";
+        txt = txt + "</information_about_city>";
+
+if(window.DOMParser)
+    {
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(txt,"text/xml");
+    }
+else //Internet Explorer
+    {
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async=false;
+        xmlDoc.loadXML(txt);
+    }
+        document.getElementById("country").innerHTML=xmlDoc.getElementsByTagName("country")[0].childNodes[0].nodeValue;
+        document.getElementById("city").innerHTML=xmlDoc.getElementsByTagName("city")[0].childNodes[0].nodeValue;
+        document.getElementById("population").innerHTML=xmlDoc.getElementsByTagName("population")[0].childNodes[0].nodeValue;
+        document.getElementById("year_of_foundation").innerHTML=xmlDoc.getElementsByTagName("year_of_foundation")[0].childNodes[0].nodeValue;
+
+    </script>
+</body>
+</html>

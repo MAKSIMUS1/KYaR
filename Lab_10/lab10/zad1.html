@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Задание1</title>
+	<style type="text/css">
+		.container {
+			display: flex;
+			flex-flow: row wrap;
+			align-content: space-around;
+			align-items: flex-start;
+			justify-content: center;
+		}
+		.div1 {
+			order: 1;
+			align-self: flex-end;
+			flex: 1 1 900px;
+			border: 3px black solid;
+			margin: 10px;
+		}
+		.div2 {
+			order: 2;
+			align-self: flex-end;
+			flex: 1 1 300px;
+			border: 3px black solid;
+			margin: 10px;
+		}
+		.div3 {
+			order: 3;
+			align-self: flex-end;
+			flex: 1 1 300px;
+			border: 3px black solid;
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="div1">Звголовок</div>
+		<div class="div2">Новый элмент</div>
+		<div class="div3">Ячейка 1</div>
+		<div class="div3">Ячейка 2</div>
+		<div class="div3">Ячейка 3</div>
+		<div class="div3">Новый элемент</div>
+	</div>
+</body>
+</html>

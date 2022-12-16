@@ -1,0 +1,35 @@
+$green: #00ff44;
+$padding: 15px;
+
+.content{
+padding: $padding;
+   h3{
+     color: $green;
+   }
+}
+
+.testsass{
+  border: 6px solid black;
+  margin: auto;
+  width: 40%;
+  h1{
+    color: green;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    &:hover{
+      background-color: #00ff44;
+      color: black;
+    }
+  }
+  article{
+    font-family: "Gill Sans", sans-serif;
+    color:blue;
+    font-size: 60px;
+    text-align: center;
+  }
+}
+table{
+  th, td{
+    border: 2px solid black;
+  }
+}

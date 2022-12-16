@@ -1,0 +1,12 @@
+﻿<?xmlversion = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="For_lab11_zad_1.css"?>
+<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="note.xsd">
+<!--XML Файл-->
+	<FACULTY>
+		<NAME>Counter-Strike: Global Offensive (CS:GO; с англ. — «Контрудар: глобальное наступление») — многопользовательская компьютерная игра, разработанная компаниями Valve и Hidden Path Entertainment.</NAME>
+		<TIME>Выпуск игры для персональных компьютеров на операционных системах Windows и macOS, также игровых приставках Xbox 360 и PlayStation 3 состоялся 21 августа 2012 года.</TIME>
+		<EXAM>Версия игры для Linux была выпущена в 2014 году[1], а в 2016 году игра, в рамках программы обратной совместимости, стала доступна на Xbox One[3].</EXAM>
+		<PAGES>В сентябре 2018 года была выпущена бесплатная версия с возможностью игры с реальными игроками и с ботами.</PAGES>
+		<PASSING>В сентябре 2018 года была выпущена бесплатная версия с возможностью игры с реальными игроками и с ботами.</PASSING>
+	</FACULTY>
+</note>

@@ -1,0 +1,49 @@
+div {
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+}
+.R {
+	border: 7px outset rgb(255, 0, 0);
+}
+.G {
+	border: 7px dashed rgb(0, 255, 0);
+}
+.B {
+	border: 7px dotted rgb(0, 0, 255);
+}
+.C {
+	border: 7px double rgb(0 255 255);
+}
+.M {
+	border: 7px groove rgb(255, 0, 255);
+}
+.Y {
+	border: 7px inset rgb(255, 255, 0);
+}
+.K {
+	border: 7px solid rgb(0, 0, 0);
+}
+.perv {
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	background: #FFA500;
+	border: 7px solid #FF7F50;
+	width: 400px;
+	margin: auto;
+}
+.vtoroy {
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	background: #FFA500;
+	border: 5px solid rgb(255, 0, 0);
+	border-radius: 20px/40px;
+	box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5);
+	overflow: auto;
+}
+.tretiy {
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	background: #FFA500;
+	border: 7px solid #FF6347;
+}
+

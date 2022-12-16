@@ -1,0 +1,29 @@
+﻿<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<!--XML Файл-->
+<eda>
+	<item>
+		<fruct>Арбуз</fruct>
+		<massa>1202</massa>
+	</item>
+	<item>
+		<fruct>Яблоко</fruct>
+		<massa>120</massa>
+	</item>
+	<item>
+		<fruct>Дыня</fruct>
+		<massa>1002</massa>
+	</item>
+	<item>
+		<fruct>Огурец</fruct>
+		<massa>460</massa>
+	</item>
+	<item>
+		<fruct>Груша</fruct>
+		<massa>200</massa>
+	</item>
+	<item>
+		<fruct>Слива</fruct>
+		<massa>20</massa>
+	</item>
+</eda>

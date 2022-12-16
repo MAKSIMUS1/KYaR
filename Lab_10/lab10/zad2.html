@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>Задание2</title>
+	<style type="text/css">
+		<style>
+			#menu-mobile {
+				display: none;
+			}
+			.main-menu {
+				display: none;
+				padding: 0;
+				margin: 0;
+			}
+			.main-menu li {
+				display: block;
+				width: 100%;
+			}
+			.main-menu a:hover {
+				text-decoration: underline;
+			}
+			#menu-mobile:checked + nav .main-menu {
+				display: block;
+			}
+			@media screen and (min-width: 640px) {
+
+			.main-menu {
+				display: block;	
+			}
+
+			.main-menu li {
+				width: calc(100% / 4);
+				text-align: center;
+				display: inline-block;
+				margin-right: -4px;
+				padding-top: 10px;
+			}
+			.main-menu a {
+				display: inline-block;
+			}
+			}
+</style>
+	</style>
+</head>
+<body>
+	<header>
+		<input type="checkbox" id="menu-mobile" />
+		<nav role="navigation"><!-- навигация -->
+			<label for="menu-mobile" class="toggle-button" onclick>Menu</label>
+			<ul class="main-menu"><!-- пункты меню -->
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Услуги</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+
+</body>
+</html>

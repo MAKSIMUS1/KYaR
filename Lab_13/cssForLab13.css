@@ -1,0 +1,10 @@
+﻿span {
+    border: 3px solid red;
+    margin: 30px 30px 30px 30px;
+    padding: 5px 5px 5px 5px;
+    font-family: cursive;
+}
+#name, #zvet, #gde_rastet{
+    color: yellow;
+    background-color: black;
+}

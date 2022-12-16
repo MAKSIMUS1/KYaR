@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Задание 5</title>
+</head>
+<body>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1080" id="svg1" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <animate xlink:href="#ell"
+                 attributeName="fill"
+                 from="red"
+                 to="blue"
+                 dur="0.2s"
+                 begin="click"
+                 fill="freeze" />
+        <defs>
+            <linearGradient id="Gradient1">
+                <stop class="stop1" offset="0%" />
+                <stop class="stop3" offset="100%" />
+            </linearGradient>
+            <radialGradient id="RadialGradient1">
+                <stop offset="0%" stop-color="red" />
+                <stop offset="49%" stop-color="red" />
+                <stop offset="50%" stop-color="green" />
+                <stop offset="70%" stop-color="green" />
+                <stop offset="71%" stop-color="blue" />
+                <stop offset="100%" stop-color="blue" />
+            </radialGradient>
+            <style type="text/css">
+                #cir {
+                    fill: url(#RadialGradient1);
+                }
+
+                .stop1 {
+                    stop-color: darkgoldenrod;
+                }
+
+                .stop3 {
+                    stop-color: pink;
+                }
+
+                #perv {
+                    fill: url(#Gradient1);
+                }
+            </style>
+        </defs>
+        <circle id="cir" cx="50" cy="50" r="50"/>
+        <rect x="120" y="10" height="100px" width="100px" fill="none" stroke="#E1E1E1" stroke-width="8" />
+        <rect x="120" y="10" height="100px" width="100px" transform="rotate(-90 -90 -90 -90)" fill="none" stroke-dashoffset="400" stroke-dasharray="400" stroke="black" stroke-width="8">
+            <animate 
+            attributeName="stroke-dashoffset" 
+            dur="1s" 
+            begin="svg1.click" 
+            values="400;0" />
+        </rect>
+        <ellipse id="ell" cx="340" cy="50" rx="100" ry="30" fill="red" />
+        <polygon id="perv" points="500,0 575,100 425,100" stroke="yellow" stroke-width="4">
+            <style>
+                polygon:hover {
+                    stroke: green;
+                }
+            </style>
+        </polygon>
+        <polyline id="vtor" points="0,130 350,130 175,160 600,160" stroke-width="3px" stroke="blue" fill="none" />
+        <circle cx="300" cy="300" r="50" fill="none" stroke="blue" stroke-width="5" />
+        <circle cx="300" cy="300" r="50" fill="none" stroke="red" stroke-width="5" stroke-dashoffset="4000" stroke-dasharray="200">
+            <animate
+                attributeName="stroke-dashoffset"
+                dur="1s"
+                begin="svg1.click"
+                values="400;0"
+            />
+        </circle>
+    </svg>
+</body>
+</html>

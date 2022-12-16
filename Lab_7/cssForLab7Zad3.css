@@ -1,0 +1,32 @@
+.perehod{
+	width: 300px;
+	height: 300px;
+}
+
+div {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: rgb(255,0,0);
+	transition: color 20s linear;
+}
+
+div:hover {
+		color: rgb(0,0,255);
+	}
+@keyframes forzagolovok {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 80%;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.forzagolovok {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	animation: forzagolovok 3s linear infinite;
+}

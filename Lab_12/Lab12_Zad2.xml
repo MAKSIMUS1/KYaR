@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog2.xsl"?>
+<catalog>
+	<uchenik>
+		<FIO>Василий</FIO>
+		<ozenka_po_matem>3</ozenka_po_matem>
+		<ozenka_po_fizike>6</ozenka_po_fizike>
+		<ozenka_po_fizre>8</ozenka_po_fizre>
+	</uchenik>
+	<uchenik>
+		<FIO>Максим</FIO>
+		<ozenka_po_matem>1</ozenka_po_matem>
+		<ozenka_po_fizike>2</ozenka_po_fizike>
+		<ozenka_po_fizre>10</ozenka_po_fizre>
+	</uchenik>
+	<uchenik>
+		<FIO>Олег</FIO>
+		<ozenka_po_matem>9</ozenka_po_matem>
+		<ozenka_po_fizike>8</ozenka_po_fizike>
+		<ozenka_po_fizre>1</ozenka_po_fizre>
+	</uchenik>
+	<uchenik>
+		<FIO>Никита</FIO>
+		<ozenka_po_matem>10</ozenka_po_matem>
+		<ozenka_po_fizike>8</ozenka_po_fizike>
+		<ozenka_po_fizre>5</ozenka_po_fizre>
+	</uchenik>
+	<uchenik>
+		<FIO>Миша</FIO>
+		<ozenka_po_matem>0</ozenka_po_matem>
+		<ozenka_po_fizike>0</ozenka_po_fizike>
+		<ozenka_po_fizre>0</ozenka_po_fizre>
+	</uchenik>
+</catalog>

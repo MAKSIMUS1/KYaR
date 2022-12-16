@@ -1,0 +1,36 @@
+.content {
+  padding: 15px;
+}
+
+.content h3 {
+  color: #00ff44;
+}
+
+.testsass {
+  border: 6px solid black;
+  margin: auto;
+  width: 40%;
+}
+
+.testsass h1 {
+  color: green;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+
+.testsass h1:hover {
+  background-color: #00ff44;
+  color: black;
+}
+
+.testsass article {
+  font-family: "Gill Sans", sans-serif;
+  color: blue;
+  font-size: 60px;
+  text-align: center;
+}
+
+table th, table td {
+  border: 2px solid black;
+}
+/*# sourceMappingURL=scss_for.css.map */

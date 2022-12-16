@@ -1,0 +1,28 @@
+.div1 {
+    width: 100px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    background-color: yellow;
+}
+.div2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    background-color: blue;
+}
+.div3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    background-color: green;
+}
+.div4 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    background-color: red;
+}

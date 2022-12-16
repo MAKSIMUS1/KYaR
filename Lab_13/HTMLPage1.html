@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+</head>
+<body>
+    <svg width="600" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!--размеры поля-->
+
+        <a xlink:href="image.jpg"><circle r="150" cx="300" cy="300" fill="red" stroke="black" stroke-width="2%" /></a> <!--изображение+создание окружности синего цвета с радиусом 100 и по координатам 100,100-->
+    </svg>
+
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 700 400">
+        <symbol id="rectangle">
+            <rect x="0" y="10" width="260" height="170" />
+        </symbol>
+        <use xlink:href="#rectangle" style="fill:black;" />
+        <use xlink:href="#rectangle" x="270" style="fill:forestgreen;" /> <!--отступ от предыдущей фигуры-->
+
+    </svg>
+</body>
+</html>

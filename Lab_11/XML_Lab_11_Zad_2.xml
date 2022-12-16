@@ -1,0 +1,28 @@
+﻿<?xmlversion = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="For_lab11_zad_1.css"?>
+<!--XML Файл-->
+<!DOCTYPE FACULTY [
+	<!ELEMENT FACULTY (SPECIALIZATION, SPECIALIZATION)>
+	<!ELEMENT SPECIALIZATION (NAME, TIME, EXAM, PAGES, PASSING)>
+	<!ELEMENT TIME (#PCDATA)>
+	<!ELEMENT EXAM (#PCDATA)>
+	<!ELEMENT PAGES (#PCDATA)>
+	<!ELEMENT PASSING (#PCDATA)>
+	<!ENTITY name "Hello, world!">
+]>
+<FACULTY>
+	<SPECIALIZATION>
+		<NAME> &name; kflyj &name;</NAME>
+		<TIME>Игра изображает сражение на карте особого вида; в каждом матче участвуют две команды по пять игроков, управляющих «героями» — персонажами с различными наборами способностей. Для победы в матче команда должна уничтожить особый объект-«крепость», принадлежащий вражеской стороне, и защитить от уничтожения собственную «крепость».</TIME>
+		<EXAM>Dota 2 работает по модели free-to-play с элементами микроплатежей.</EXAM>
+		<PAGES>Разработка игры началась в 2009 году, когда компания Valve приняла на работу основного разработчика DotA — IceFrog, а летом 2010 года подала заявку на регистрацию этой торговой марки[4][5].</PAGES>
+		<PASSING>13 октября 2010 года на игровом портале Game Informer игра была анонсирована к выходу в 2011 году[6]. 15 августа 2011 года в официальном блоге был опубликован трейлер к игре[7].</PASSING>
+	</SPECIALIZATION>
+	<SPECIALIZATION>
+		<NAME>нейм</NAME>
+		<TIME>тайм</TIME>
+		<EXAM>эксам</EXAM>
+		<PAGES>пэйджес</PAGES>
+		<PASSING>пассинг</PASSING>
+	</SPECIALIZATION>
+</FACULTY>

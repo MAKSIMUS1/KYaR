@@ -1,0 +1,39 @@
+div {
+	margin: 100px;
+	width: 300px;
+	height: 300px;
+	border: 7px solid black;
+}
+.perv:hover {
+	transform: scale(0.5);
+}
+.vtoroe {
+	transform: rotate(45deg);
+}
+
+.tret {
+	transform: translate(50px, 0px);
+}
+.chet:hover {
+	transform: rotate(-20deg);
+}
+
+
+@keyframes forzagolovok {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 80%;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.forzagolovok {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	animation: forzagolovok 3s linear infinite;
+}

@@ -1,0 +1,69 @@
+ul {
+    list-style-image: url(book.png);
+}
+body {
+    background-image: url(logotipFIT.jpg);
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+.pervoe {
+    color: darkgoldenrod;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 150%;
+}
+.cartinafirst {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 150px;
+    height: 250px;
+}
+.cartinasecond {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 250px;
+    float: right;
+}
+.firstp {
+    margin: 0;
+    padding: 0;
+    text-indent: 20px;
+}
+.secondp {
+    margin: 0;
+    padding: 0;
+    text-indent: 20px;
+}
+.thirdp {
+    margin: 0;
+    padding: 0;
+    text-indent: 20px;
+    clear: left
+}
+.fourp {
+    margin: 0;
+    padding: 0;
+    text-indent: 20px;
+}
+
+figure {
+    background: #5f6a72;
+    float: left;
+    text-align: center;
+    margin: 7px;
+    padding: 0;
+}
+
+figcaption {
+    color: red; 
+}
+.sledfig{
+    clear: left;
+}
+
+.otstup{
+    margin-bottom: 150px;
+}

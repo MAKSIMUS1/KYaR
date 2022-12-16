@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl_dlyu_ekzamena.xsl"?>
+<!--XML Файл-->
+<yushik>
+    <item>
+        <chelovek>Вася</chelovek>
+        <vozrast>23</vozrast>
+    </item>
+    <item>
+        <chelovek>Никита</chelovek>
+        <vozrast>45</vozrast>
+    </item>
+    <item>
+        <chelovek>Макс</chelovek>
+        <vozrast>17</vozrast>
+    </item>
+    <item>
+        <chelovek>Миша</chelovek>
+        <vozrast>32</vozrast>
+    </item>
+    <item>
+        <chelovek>Олег</chelovek>
+        <vozrast>27</vozrast>
+    </item>
+</yushik>

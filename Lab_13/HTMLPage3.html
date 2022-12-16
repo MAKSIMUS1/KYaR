@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad_2</title>
+    <link rel="stylesheet" href="cssForLab13.css">
+</head>
+<body>
+    <div>
+        <p><span id="name"></span></p>
+        <p><span id="zvet"></span></p>
+        <p><span id="gde_rastet"></span></p>
+    </div>
+
+    <script>
+        txt = "<fruct>";
+        txt = txt + "<name>Banan</name>";
+        txt = txt + "<zvet>Geltiy</zvet>";
+        txt = txt + "<gde_rastet>Afrika</gde_rastet>";
+        txt = txt + "</fruct>";
+
+if(window.DOMParser)
+    {
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(txt,"text/xml");
+    }
+else //Internet Explorer
+    {
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async=false;
+        xmlDoc.loadXML(txt);
+    }
+        document.getElementById("name").innerHTML=xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+        document.getElementById("zvet").innerHTML = xmlDoc.getElementsByTagName("zvet")[0].childNodes[0].nodeValue;
+        document.getElementById("gde_rastet").innerHTML = xmlDoc.getElementsByTagName("gde_rastet")[0].childNodes[0].nodeValue;
+
+    </script>
+</body>
+</html>

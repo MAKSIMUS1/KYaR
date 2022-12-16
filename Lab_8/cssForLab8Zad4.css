@@ -1,0 +1,22 @@
+nav a {
+	float: left;
+	display: block;
+	border: 1px solid black;
+	padding: 5px 15px 5px 30px;
+	width: 125px;
+	text-decoration: none;
+	color: green;
+	margin: 0;
+}
+nav a {
+	background: url(facultet.png) no-repeat 0 0;
+}
+a.IT:hover {
+	background: url(facultet.png) no-repeat 0 -30px;
+}
+a.PIM:hover {
+	background: url(facultet.png) no-repeat 0 -60px;
+}
+a.HIM:hover {
+	background: url(facultet.png) no-repeat 0 -90px;
+}

@@ -1,0 +1,27 @@
+div {
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.perv {
+    background-image: linear-gradient(to bottom, blue, red);
+}
+.vtor {
+    background-image: repeating-linear-gradient(45deg, red 0px, red 10px, blue 10px, blue 20px)
+}
+.tret {
+    background-image: radial-gradient(yellow, green);
+}
+.chet {
+    background-image: repeating-radial-gradient(green 0px, green 10px, yellow 10px, yellow 20px);
+}
+.pyt {
+    background-image: radial-gradient(yellow 0px, green 50%, darkgreen 70%, transparent 95%),
+        linear-gradient(to bottom, blue, fuchsia);
+}
+.shest {
+    background-image: linear-gradient(to right, yellow, green 50%, transparent 85%),
+        linear-gradient(black, white 45%, white 60%, blue 70%, blue 80%, fuchsia 90%);
+}

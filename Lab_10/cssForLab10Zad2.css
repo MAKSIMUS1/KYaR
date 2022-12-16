@@ -1,0 +1,41 @@
+#menu-mobile {
+	display: none;
+}
+
+.main-menu {
+	display: none;
+	padding: 0;
+	margin: 0;
+}
+
+	.main-menu li {
+		display: block;
+		width: 100%;
+	}
+#menu-mobile:checked + nav .main-menu {
+	display: block;
+}
+
+@media (min-width: 640px) {
+
+	.main-menu {
+		display: block;
+	}
+
+		.main-menu li {
+			width: calc(100% / 4);
+			text-align: center;
+			display: inline-block;
+			margin-right: -4px;
+			padding-top: 10px;
+		}
+
+		.main-menu a {
+			display: inline-block;
+		}
+}
+label, ul li {
+	border: 3px solid black;
+	margin: 5px;
+	font-family: Arial, serif
+}

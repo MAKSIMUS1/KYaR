@@ -1,0 +1,20 @@
+ul.nav {
+	list-style-type: none;
+}
+ul.nav a {
+	display: block;
+}
+.first:link {
+	color: red;
+	text-decoration: none;
+}
+.second:visited {
+	color: #8B0000;
+}
+.tret:hover {
+	color: green;
+}
+.four:active {
+	color: rgb(184, 134, 11); 
+}
+

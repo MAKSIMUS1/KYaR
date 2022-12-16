@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Задание 4</title>
+    <style>
+        form {
+            background-color: indigo;
+            width:500px;
+            height:450px;
+            color:white;
+
+        }
+        label {
+            display: inline-block;
+            width: 12em;
+            vertical-align: top;
+            text-align: left;
+            margin: 10px 10px 10px 10px;
+            
+        }
+        input {
+            font-size: 1.2em;
+            color: rgba(255,255,255,1);
+            background-color: rgba(255,255,255,.5);
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75)
+        }
+        .knopka {
+            box-shadow: 0 0 4px white;
+            background-color: navy;
+        }
+        input[type=text]:focus {
+            color: black;
+            background-color: black;
+        }
+        input[type=button] {
+            font-size:100%;
+        }
+        p{
+            text-align:center;
+            font-size:170%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p>Регистрация постоянного клиента</p>
+        <label for="ladno">Фамилия:</label><input type="text" id="ladno" /><br>
+        <label for="ladno">Имя:</label><input type="text" id="ladno" /><br>
+        <label for="ladno">Отчество:</label><input type="text" id="ladno" /><br>
+        <label for="ladno">Возраст:</label><input type="text" id="ladno" /><br>
+        <label for="ladno">Пол:</label><input type="checkbox" id="ladno"/>мужской<input type="checkbox"/>женский<br>
+        <label for="ladno">Email:</label><input type="email" /><br>
+        <label for="ladno">Страна проживания:</label><input type="text" id="ladno" /><br>
+        <label for="ladno">Откуда вы узнали о нас?</label>
+        <select name="country">
+            <option>Выберите вариант</option>
+            <option value="Россия">Россия</option>
+            <option value="Украина">Украина</option>
+            <option value="Беларусь">Беларусь</option>
+        </select><br>
+        <label for="ladno">Дата заполнения</label><input type="date" id="ladno" /><br>
+        <label for="ladno"></label><input type="button" class="knopka" value="Регистрация"><input type="button" class="knopka"  value="Отмена">
+
+    </form>
+</body>
+</html>

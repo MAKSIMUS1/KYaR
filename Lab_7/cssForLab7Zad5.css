@@ -1,0 +1,129 @@
+div {
+	border: 7px solid black;
+	width: 300px;
+	height: 300px;
+	margin: 20px 0 20px 0;
+}
+@keyframes perv {
+	0% {
+		left: 0;
+		top: 0;
+	}
+	50% {
+		left: 0;
+		top: 200px;
+	}
+	100% {
+		left: 0;
+		top: 0px;
+	}
+}
+
+.perv {
+	position: relative;
+	animation: perv 4s linear infinite;
+}
+
+@keyframes vtor {
+	0% {
+		left: 0;
+		top: 0;
+	}
+
+	50% {
+		left: 200px;
+		top: 0px;
+	}
+
+	100% {
+		left: 0;
+		top: 0px;
+	}
+}
+
+.vtoroe{
+	position: relative;
+	animation: vtor 4s linear infinite;
+}
+
+@keyframes tret {
+	0% {
+		left: 0;
+		top: 0;
+	}
+
+	25% {
+		left: 200px;
+		top: 200px;
+	}
+
+	50% {
+		left: 200px;
+		top: 0;
+	}
+
+	75% {
+		left: 0;
+		top: 200px;
+	}
+
+	100% {
+		left: 0;
+		top: 0;
+	}
+}
+
+.tret {
+	position: relative;
+	animation: tret 4s linear infinite;
+}
+@keyframes chet {
+	0% {
+		left: 0;
+		top: 0;
+	}
+
+	25% {
+		left: 200px;
+		top: 0;
+	}
+
+	50% {
+		left: 200px;
+		top: 200px;
+	}
+
+	75% {
+		left: 0;
+		top: 200px;
+	}
+
+	100% {
+		left: 0;
+		top: 0;
+	}
+}
+
+.chet {
+	position: relative;
+	animation: chet 4s linear infinite;
+}
+
+@keyframes forzagolovok {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 80%;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.forzagolovok {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	animation: forzagolovok 3s linear infinite;
+}
